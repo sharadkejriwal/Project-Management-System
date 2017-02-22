@@ -1,0 +1,118 @@
+html {
+	position: relative;
+	min-width: 1024px;
+	min-height: 100%;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 25px;
+}
+
+header {
+	position: relative;
+	height: 60px;
+	padding: 10px 20px;
+	background: #2af;
+	color: white;
+	line-height: 60px;
+}
+
+header > h1 {
+	font-size: 30px;
+	padding: 0px 50px;
+}
+
+header > nav {
+	float: right;
+	clear: both;
+}
+
+header > nav > a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	padding: 0px 20px;
+}
+
+header > nav > a:hover {
+	background: #19e;
+}
+
+#admin {
+	float: right;
+	clear: both;
+	margin: 30px 50px;
+	padding : 20px 50px;
+	line-height: 30px;
+	background: #eee;
+	width: 290px;
+}
+
+#admin > h2 {
+	position: relative;
+	margin: 10px;
+	color: #2af;
+}
+
+#admin > h2:before {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: -50px;
+	width: 0px;
+	height: 0px;
+	border-left: 30px solid #19e;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+}
+
+#admin > form > input {
+	line-height: 25px;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 10px;
+	padding: 6px;
+	border: 1px solid #aaa;
+	width: 250px;
+}
+
+#admin > form > #btnsign {
+	background: #2af;
+	width: 263px;
+	color: white;
+	letter-spacing: 0px;
+}
+
+#admin > form > #btnsign:hover {
+	background: #19e;
+}
+
+#info {
+	margin: 30px 50px;
+	padding : 20px 50px;
+	line-height: 40px;
+	font-size: 30px;
+	min-height: 300px;
+	text-align: justify;
+	border-right: 1px solid black;
+	width: 40%;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	border-top: 1px solid black;
+}
